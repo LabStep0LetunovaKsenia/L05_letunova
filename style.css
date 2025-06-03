@@ -1,0 +1,153 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.button {
+    background-color: #F59BA7;
+    color: #EAEBEF;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 64px;
+    cursor: pointer;
+    font-family: "Bellota", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #D58A9F;
+    color: #EAEBEF;
+    box-shadow: 5px 5px 5px rgba(245, 155, 167, 40%);
+}
+
+#form {
+    padding: 60px 20px;
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 50%);
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 470px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form h2 {
+    font-size: 54px;
+    letter-spacing: 2px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: "Bellota", system-ui, sans-serif;
+}
+
+.form input {
+    width: 440px;
+    padding: 14px 14px;
+    margin-bottom: 20px;
+    border: 1px solid #F49BA7;
+    border-radius: 20px;
+    background-color: rgba(254, 194, 230, 20%);
+    font-size: 28px;
+    font-family: "Bellota", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form input:focus {
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.register-link {
+    display: block;
+    margin-top: 10px;
+    color: #2D3F70;
+    text-decoration: none;
+    font-family: "Bellota", system-ui;
+    font-size: 24px;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+#popular {
+    height: 952px;
+    font-size: 30px;
+    font-size: 24px;
+}
+
+.card {
+    width: 365px;
+}
+
+.card_headline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_description h3 {
+    margin: 0 0 15px 0;
+}
+
+.card_description p {
+    margin: 0 0 15px 3px;
+}
+
+.card .button {
+    width: 100%;
+}
+
+#form {
+    margin-top: 50px;
+}
